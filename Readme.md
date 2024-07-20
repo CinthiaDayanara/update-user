@@ -1,31 +1,29 @@
-User Update Microservice
+# User Management Microservice
 
+This microservice allows you to create, update, list, and delete users. It is built using Node.js, Express, and MongoDB and is designed to integrate with other microservices in a microservices architecture.
 
-The User Update Microservice is a crucial component designed to manage the updating of user profiles within a microservices-based architecture. This service focuses on providing efficient and scalable functionalities for modifying user data.
+## Features
 
+- **Create User**: Allows the creation of new users.
+- **Update User**: Allows updating existing users.
+- **List Users**: Allows listing all users.
+- **Delete User**: Allows deleting users.
 
-Description
-This microservice provides the following functionalities:
+## Technologies
 
-Update User: Allows for the updating of existing user profiles. Users can modify their personal information such as name and password.
-The service is designed to integrate seamlessly with databases and other authentication and authorization services, ensuring that user information remains accurate and up-to-date.
+- Node.js
+- Express
+- MongoDB
+- Mongoose
 
-Requirements
-Node.
-MongoDB 
-Docker 
+## Installation
 
-Installation
-Clone the Repository
-bash
-Copiar código
+### Prerequisites
+
+- Node.js (>=14.x)
+- MongoDB
+
+### Clone the Repository
+
+```bash
 git clone https://github.com/CinthiaDayanara/update-user.git
-cd user-update
-Configuration
-Install Dependencies:
-
-If using Node.js:
-
-bash
-Copiar código
-npm install
